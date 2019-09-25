@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    float: right;
+    word-spacing: 8px;
+    padding-right: 4%;
+    padding-top: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-grip-vertical {
+    position: relative;
+    left: 53.5%;
+    padding-top: 0.9%;  
+}
+
+
+.image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 3%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 42%;
+    height: 30px;
+    border-radius: 20px;
+    border: ridge;
+}
+
+.fa-microphone {
+    position: relative;
+    left: 43%;
+    margin: 0px;
+}
+
+.fa-search {
+    position: relative;
+    left: 3%;
+}
+
+button {
+    border-radius: 3px;
+    font-size: 13px;
+    background-color: #DCDCDC;
+    opacity: 0.6;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    border-style: groove;
+}
+
+.language ul {
+    word-spacing: 1.2px;
+}
+
+.language li {
+    list-style: none;
+    display: inline;
+}
+
+.language a {
+    text-decoration: none;
+    color: 	#00008B; 
+}
+
+footer {
+    background-color: 	rgba(192,192,192,0.3);;
+    width: 98.8%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 1.5%;
+    padding-bottom: 10px;
+}
+
+.footer-one {
+    text-align: left;
+    opacity: 0.6;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    padding-right: 2%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    opacity: 0.6;
+}
+
+
